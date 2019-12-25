@@ -66,6 +66,6 @@ export default {
 
 <style scoped lang="scss">
   .current-page {
-    border-bottom: solid 1px;
+    border-bottom: solid 3px;
   }
 </style>

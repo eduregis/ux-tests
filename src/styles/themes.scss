@@ -1,5 +1,7 @@
 $navy: #112F41;
+$navy-light: rgb(23, 50, 66);
 $white: #e7e7e7;
+$grey-light: #dfdfdf;
 $grey: #35495e;
 $teal: #068587;
 $teal-light: #4FB99F;
@@ -12,18 +14,21 @@ $red-designer: #ca6d56;
 $color-bg: 'color-bg';
 $color-text: 'color-text';
 $color-btn: 'color-btn';
+$color-content: 'color-content';
 
 $themes: (
   light: (
     color-bg: $white,
     color-text: $navy,
-    color-btn: $grey
+    color-btn: $grey,
+    color-content: $grey-light
 
   ),
   dark: (
     color-bg: $navy,
     color-text: $white,
-    color-btn: $teal-dark
+    color-btn: $teal-dark,
+    color-content: $navy-light
   )
 );
 
