@@ -1,0 +1,45 @@
+$navy: #112F41;
+$white: #fdfdfd;
+$grey: #35495e;
+$teal: #068587;
+$teal-light: #4FB99F;
+$teal-dark: #3b8070;
+$yellow: #F2B134;
+$main-bg-color: coral;
+
+$color-bg: 'color-bg';
+$color-text: 'color-text';
+$color-btn: 'color-btn';
+
+$themes: (
+  light: (
+    color-bg: $white,
+    color-text: $navy,
+    color-btn: $grey
+
+  ),
+  dark: (
+    color-bg: $navy,
+    color-text: $white,
+    color-btn: $teal-dark
+  )
+);
+
+// mixin themed
+@mixin themed() {
+  @each $theme, $map in $themes {
+    .theme--#{$theme} & {
+      $theme-map: () !global;
+      @each $key, $submap in $map {
+        $value: map-get(map-get($themes, $theme), '#{$key}');
+        $theme-map: map-merge($theme-map, ($key: $value)) !global;
+      }
+      @content;
+      $theme-map: null !global;
+    }
+  }
+}
+
+@function t($key) {
+  @return map-get($theme-map, $key);
+}
