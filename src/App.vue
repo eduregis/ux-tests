@@ -2,9 +2,9 @@
 <div id="app">
   <div class="theme-container" :class="[dark ? 'theme--dark' : 'theme--light']">
     <div class="screen-container">
-      <TheNavbar/>
       <div class="container">
-         <router-view></router-view>
+        <TheNavbar class="header"/>
+        <router-view></router-view>
       </div>
     </div>
   </div>
@@ -27,17 +27,13 @@ export default {
 }
 </script>
 
-<style>
+<style >
 body {
   margin: 0;
 }
 
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
   height: 100vh;
 }
 </style>

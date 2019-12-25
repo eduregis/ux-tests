@@ -1,5 +1,6 @@
 export default {
     dark: true,
+    currentPage: 'projects',
     // projectCards: [
     //     {   
     //         title: 'Feminicídio no Nordeste - Infográfico Interativo',
@@ -101,24 +102,7 @@ export default {
     //             require('@/assets/projects-images/egipcia/egipcia_06.png'),
     //         ],
     //         link: 'https://github.com/eduregis/egipcia'
-    //     },
-    //     {   
-    //         title: 'Sistema Multimeios',
-    //         shortTitle: 'Sis. Multimeios',
-    //         tags: ['Sistema','Trabalho de Faculdade'],
-    //         description: 'Esse sistema gerencia o núcleo Multimeios da EEMTI Telina Barbosa. Este núcleo engloba '
-    //             + 'a biblioteca, sala de informática e sala de vídeo da escola. Esse sistema foi desenvolvido para o '
-    //             + 'trabalho final da disciplina de Projeto Integrado I do Curso de Sistemas e Mídias Digitais da '
-    //             + 'Universidade Federal do Ceará.',
-    //         functions: ['Desenvolvedor','Back-end'],
-    //         img: require('@/assets/projects-images/multimeios_image.png'),
-    //         iconsTools: [
-    //             require('@/assets/interests-icons/angular.png'),
-    //             require('@/assets/interests-icons/firebase.png')
-    //         ],
-    //         carouselImages: [],
-    //         link: 'https://github.com/eduregis/multimeios'
-    //     },
+    //     },    //    
     //     {   
     //         title: 'B.E.E.P.',
     //         shortTitle: 'B.E.E.P.',
@@ -165,33 +149,6 @@ export default {
     //             require('@/assets/projects-images/breakout_remake/breakout_remake_04.png')
     //         ],
     //         link: 'https://drive.google.com/file/d/1pgn1oRAIitkk32xheU2G57y_E9rOHMop/view'
-    //     },    
-    //     {   
-    //         title: 'Planeta RGB',
-    //         shortTitle: 'Planeta RGB', 
-    //         tags: ['Jogo','Trabalho de Faculdade'],                   
-    //         description: 'A história se passa em um planeta bicromático, sendo um lado azul e outro vermelho. '
-    //             + 'Seus habitantes, incapazes de aceitar suas diferenças, vivem em conflito por tanto tempo '
-    //             + 'que o planeta desaprendeu o significado da palavra “paz”, bem como as vantagens da convivência '
-    //             + 'com o diferente. Neste cenário, o jogador controla Green. Nosso protagonista é uma divergência '
-    //             + 'na lógica das cores que forma a identidade visual do planeta RGB (inclusive visualmente), bem como '
-    //             + 'um pacifista que rejeita o destino de conflito e violência que se apresenta a frente de qualquer um '
-    //             + 'que ali resida. Sendo um advogado pela resolução pacífica dos conflitos, Green colocará à prova suas '
-    //             + 'habilidades para sobreviver e transitar em zonas de guerra devastadas pelo conflito, lidando com seus '
-    //             + '“inimigos” sem recorrer à violência. Esse jogo foi desenvolvido para o trabalho de Projeto '
-    //             + 'Integrado do Primeiro Semestre do Curso de Sistemas e Mídias Digitais da Universidade Federal do Ceará.',
-    //         functions: ['Desenvolvedor','Game Designer','Ilustrador'],
-    //         img: require('@/assets/projects-images/rgb/gamemaker_image.png'),
-    //         iconsTools: [
-    //             require('@/assets/interests-icons/gamemaker.png')
-    //         ],
-    //         carouselImages: [
-    //             require('@/assets/projects-images/rgb/planetargb_01.png'),
-    //             require('@/assets/projects-images/rgb/planetargb_02.png'),
-    //             require('@/assets/projects-images/rgb/planetargb_03.png'),
-    //             require('@/assets/projects-images/rgb/planetargb_04.png')
-    //         ],
-    //         link: 'https://github.com/eduregis/smd-game-planeta-rgb'
     //     },  
     // ]
 };

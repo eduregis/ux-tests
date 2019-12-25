@@ -2,57 +2,70 @@
   <nav class="nav">
     <div class="logo">
       <div class="logo text-lg">
-        Nuxt Fundamentals
+        Eduardo Regis
       </div>
-      <span class="subheader">A Vue School course</span>
+      <span class="subheader"><span class="blue-developer">Programador</span> & <span class="red-designer">Designer</span></span>
     </div>
-    <div @click="$store.commit('toggleDark')" class="button--default">
-      aaaa
+    <div class="nav-content">
+      <ul>
+        <li
+          @click="$store.commit('changePage', 'projects')"
+        >
+          <router-link 
+            to="/" 
+            :class="{'current-page' : currentPage == 'projects'}" 
+          >
+            PROJETOS
+          </router-link>
+        </li>
+        <li
+          @click="$store.commit('changePage', 'resume')"
+        >
+          <router-link 
+            to="/resume" 
+            :class="{'current-page' : currentPage == 'resume'}" 
+          >
+            CURRÍCULO
+          </router-link>
+        </li>
+        <li
+          @click="$store.commit('changePage', 'aboutme')"
+        >
+          <router-link 
+            to="/aboutme" 
+            :class="{'current-page' : currentPage == 'aboutme'}" 
+          >
+            SOBRE
+          </router-link>
+        </li> 
+        <li>
+          <div @click="$store.commit('toggleDark')">
+            <img v-if="dark" src="@/assets/sun.png">
+            <img v-else src="@/assets/moon.png">
+          </div>      
+        </li>
+        <!-- <li>
+          <div @click="$store.commit('toggleDark')" class="button--default">
+            {{ value }}
+          </div>
+        </li> -->
+      </ul>
     </div>
   </nav>
 </template>
 
 <script>
-export default {
-  data(){
-    return {
-      dark: this.$store.state.dark
-    }
-  },
-
+import { mapState } from 'vuex'
+export default {  
+  computed: mapState({
+    currentPage: state => state.currentPage,
+    dark: state => state.dark,
+  }),
 }
 </script>
 
 <style scoped lang="scss">
-  nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 70px;
-    font-weight: lighter;
-    letter-spacing: 0.5px;
-    .logo {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      .subheader {
-        opacity: 0.70;
-        font-size: 0.9rem;       
-      }
-    }
-    .nav-content {
-      font-size: 1rem;
-      ul {
-        display: flex;
-        list-style: none;
-        li {
-          padding: 2px 10px;
-          &:not(:first-of-type) {
-            border-left: 1px solid rgba(255, 255, 255, 0.2);
-          }
-        }
-        
-      }    
-    } 
-  } 
+  .current-page {
+    border-bottom: solid 1px;
+  }
 </style>

@@ -1,21 +1,27 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router';
 
-import AboutMe from '@/pages/AboutMe.vue';
 import Projects from '@/pages/Projects.vue';
+import Resume from '@/pages/Resume.vue';
+import AboutMe from '@/pages/AboutMe.vue';
 
 Vue.use(VueRouter);
 
 const routes = [
     {
-        name: 'AboutMe',
+        name: 'Projects',
         path: '/',
-        component: AboutMe
+        component: Projects
     },
     {
-        name: 'Projects',
-        path: '/projects',
-        component: Projects
+        name: 'Resume',
+        path: '/resume',
+        component: Resume
+    },
+    {
+        name: 'AboutMe',
+        path: '/aboutme',
+        component: AboutMe
     },
 ]
 

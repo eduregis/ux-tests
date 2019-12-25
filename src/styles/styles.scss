@@ -25,6 +25,50 @@
     background: $navy;
     padding: 0; 
   }
+
+  nav {
+    position: sticky;
+    top: 0;
+    display: flex;
+    @include themed() {
+      background-color: t($color-bg);
+    }
+    opacity: 85%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    font-weight: lighter;
+    letter-spacing: 0.5px;
+    .logo {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      .subheader {
+        opacity: 0.70;
+        font-size: 0.9rem;  
+        font-weight: bold;
+      }
+    }
+    .nav-content {
+      font-size: 1rem;
+      ul {
+        display: flex;
+        list-style: none;
+        li {
+          padding: 2px 10px;
+          margin: auto;          
+        }
+        
+      }    
+    } 
+  } 
+
+  .blue-developer {
+    color: $blue-developer;
+  }
+  .red-designer {
+    color: $red-designer;
+  } 
   
   .screen-container {
     @include themed() {
@@ -35,15 +79,20 @@
   }
   
   a {
-    color: $teal-light;
+    @include themed() {
+      color: t($color-text);
+    }
     text-decoration: none;
+    border-bottom: none;
+    font-size: 0.9rem;
+    padding-bottom: 7px;
   }
   a:hover {
-    color: $teal;
+    border-bottom: solid 1px;
   }
   .container {
     margin: 0 auto;
-    max-width: 900px;
+    max-width: 90%;
   }
   .text-xs {
     font-size: 1.2rem;

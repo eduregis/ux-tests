@@ -1,5 +1,8 @@
 export default {
-    toggleDark (state){
+    toggleDark (state) {
         state.dark = !state.dark
+    },
+    changePage (state, newPage) {
+        state.currentPage = newPage
     }
 };

@@ -1,7 +1,7 @@
 <template>
-  <div>
-    sobre mim    
-  </div>
+    <div>
+        currículo
+    </div>
 </template>
 
 <script>
