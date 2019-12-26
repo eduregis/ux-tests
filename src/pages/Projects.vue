@@ -30,6 +30,7 @@
           :key="position"
           class="project-card-container"
         >
+        <div @click="toProject(project.path)">
           <div class="project-card">
             <img
               class="project-card-img" 
@@ -55,6 +56,7 @@
               </span>
             </div>
           </div>
+        </div>
         </div>
       </div>
     </div>
@@ -94,6 +96,9 @@ export default {
         return false;
       }
       return true;
+    }, 
+    toProject(path) {
+      this.$router.push({ path: `/projetos/${path}` }) 
     }
   }
 }

@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router';
 
 import Projects from '@/pages/Projects.vue';
+import Project from '@/pages/Project.vue';
 import Resume from '@/pages/Resume.vue';
 import AboutMe from '@/pages/AboutMe.vue';
 
@@ -23,6 +24,11 @@ const routes = [
         path: '/aboutme',
         component: AboutMe
     },
+    {
+        name: 'projetos',
+        path: '/projetos/:id', 
+        component: Project
+    }
 ]
 
 export const router = new VueRouter({

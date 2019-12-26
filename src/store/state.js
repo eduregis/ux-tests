@@ -16,6 +16,7 @@ export default {
     projectCards: [
         {   
             title: 'Feminicídio no Nordeste',
+            path: 'feminicidio-no-nordeste',
             color: 'blue-developer',
             tags: ['Infográfico','Trabalho de Faculdade'],
             shortDescription: 'Um infográfico interativo que mostra dados sobre o feminicídio na região nordeste.',
@@ -42,6 +43,7 @@ export default {
         }, 
         {   
             title: 'MIDE - Enigma dos Bilhetes',
+            path: 'mide-enigma-dos-bilhetes',
             color: 'blue-developer',
             tags: ['Sistema','Jogo','Estágio'],
             shortDescription: 'Um recurso que ensina o uso de sinônimos e antônimos para crianças.',
@@ -69,6 +71,7 @@ export default {
         },
         {   
             title: 'Luz do Saber - Fundamental',
+            path: 'luz-do-saber-fundamental',
             color: 'blue-developer',
             tags: ['Sistema','Jogo','Estágio'],
             shortDescription: 'Um recurso para auxílio na alfabetização de crianças.',
@@ -95,6 +98,7 @@ export default {
         },
         {   
             title: 'Egipcia Ecommerce',
+            path: 'egipcia-ecommerce',
             color: 'blue-developer',
             tags: ['Sistema','Trabalho de Faculdade'],
             shortDescription: 'Um sistema de gerenciamento de um ecommerce.',
@@ -121,9 +125,10 @@ export default {
         },    
         {   
             title: 'B.E.E.P.',
+            path: 'beep',
             color: 'blue-developer',
             tags: ['Jogo','Trabalho de Faculdade'],
-            shortDescription: 'Um jogo para auxílio no apredizado de programação',
+            shortDescription: 'Um jogo para auxílio no aprendizado de programação.',
             description: 'Um malware invadiu o computador e descofigurou todos os robozinhos que o fazia funcionar, ' 
                 + 'todos menos um. B.E.E.P. (Bot de Estudo e Esino de Programação) sobreviveu ao ataque e precisa de '
                 + 'ajuda pra fazer o sistema voltar ao normal. Tendo B.E.E.P. como seu mentor, o jogador irá reprogramar '
@@ -148,6 +153,7 @@ export default {
         },
          {   
             title: 'Breakout Remake',
+            path: 'breakout-remake',
             color: 'blue-developer',
             tags: ['Jogo','Trabalho de Faculdade'],
             shortDescription: 'Um remake do clássico jogo de atari Breakout.',
