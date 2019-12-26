@@ -23,7 +23,11 @@ export default {
             functions: ['Desenvolvedor','Front-end'],
             img: require('@/assets/projects-images/info-feminicidio/info_feminicidio_image.png'),
             iconsTools: [
-                require('@/assets/interests-icons/vue.png')
+                {
+                    name: 'Vue',
+                    url: require('@/assets/interests-icons/vue.png')
+                }
+                
             ],
             sections: [
                 {
@@ -49,7 +53,12 @@ export default {
                     ]
                 }
             ],            
-            link: 'https://infografico-cv2-406783.netlify.com/'
+            links: [
+                {
+                    name: 'Link para exibição',
+                    url: 'https://infografico-cv2-406783.netlify.com/'
+                }
+            ] 
         }, 
         {   
             title: 'MIDE - Enigma dos Bilhetes',
@@ -61,7 +70,10 @@ export default {
             functions: ['Desenvolvedor','Front-end'],
             img: require('@/assets/projects-images/enigma-dos-bilhetes/enigma_dos_bilhetes_image.png'),
             iconsTools: [
-                require('@/assets/interests-icons/vue.png')
+                {
+                    name: 'Vue',
+                    url: require('@/assets/interests-icons/vue.png')
+                }                
             ],
             sections: [
                 {
@@ -87,8 +99,13 @@ export default {
                         require('@/assets/projects-images/enigma-dos-bilhetes/enigma_dos_bilhetes_10.png')
                     ]
                 }
-            ],         
-            link: 'https://mide-enigma-dos-bilhetes.netlify.com/#/'
+            ],    
+            links: [
+                {
+                    name: 'Link para exibição',
+                    url: 'https://mide-enigma-dos-bilhetes.netlify.com/#/'
+                }
+            ]  
         },
         {   
             title: 'Luz do Saber - Fundamental',
@@ -99,7 +116,10 @@ export default {
             functions: ['Desenvolvedor','Front-end'],
             img: require('@/assets/projects-images/luz-do-saber/luz_do_saber_image.png'),
             iconsTools: [
-                require('@/assets/interests-icons/vue.png')
+                {
+                    name: 'Vue',
+                    url: require('@/assets/interests-icons/vue.png')
+                }                
             ],
             sections: [
                 {
@@ -124,8 +144,13 @@ export default {
                         require('@/assets/projects-images/luz-do-saber/luz_do_saber_10.png')
                     ]
                 }
-            ],         
-            link: 'http://luz-do-saber-staging.herokuapp.com/'
+            ],    
+            links: [
+                {
+                    name: 'Link para exibição',
+                    url: 'http://luz-do-saber-staging.herokuapp.com/'
+                }
+            ]  
         },
         {   
             title: 'Egipcia Ecommerce',
@@ -136,7 +161,10 @@ export default {
             functions: ['Desenvolvedor','Front-end','Back-end'],
             img: require('@/assets/projects-images/egipcia/egipcia_image.png'),
             iconsTools: [
-                require('@/assets/interests-icons/java.png')
+                {
+                    name: 'Java',
+                    url: require('@/assets/interests-icons/java.png')
+                }                
             ],
             sections: [
                 {
@@ -161,8 +189,13 @@ export default {
                         require('@/assets/projects-images/egipcia/egipcia_06.png'),
                     ]
                 }
-            ],         
-            link: 'https://github.com/eduregis/egipcia'
+            ],    
+            links: [
+                {
+                    name: 'Link para o código',
+                    url: 'https://github.com/eduregis/egipcia'
+                }
+            ] 
         },    
         {   
             title: 'B.E.E.P.',
@@ -173,13 +206,16 @@ export default {
             functions: ['Desenvolvedor'],
             img: require('@/assets/projects-images/beep/beep_image.png'),
             iconsTools: [
-                require('@/assets/interests-icons/javascript.png')
+                {
+                    name: 'Javascript',
+                    url: require('@/assets/interests-icons/javascript.png')
+                }                
             ],
             sections: [
                 {
                     title: 'Descrição',
                     description: 'Um malware invadiu o computador e descofigurou todos os robozinhos que o fazia funcionar, ' 
-                    + 'todos menos um. B.E.E.P. (Bot de Estudo e Esino de Programação) sobreviveu ao ataque e precisa de '
+                    + 'todos menos um. B.E.E.P. (Bot de Estudo e Ensino de Programação) sobreviveu ao ataque e precisa de '
                     + 'ajuda pra fazer o sistema voltar ao normal. Tendo B.E.E.P. como seu mentor, o jogador irá reprogramar '
                     + 'os robozinhos utilizando comandos de "andar", "girar", "atacar", "segurar", "soltar e "apertar". '
                     + 'A proposta do jogo é ensinar conceitos de programação como: Algoritmo, Laços de repetição, condicionais, '
@@ -198,8 +234,13 @@ export default {
                         require('@/assets/projects-images/beep/beep_04.png')
                     ]
                 }
-            ],         
-            link: 'https://github.com/eduregis/smd-projeto-integrado-2018.1'
+            ], 
+            links: [
+                {
+                    name: 'Link para o código',
+                    url: 'https://github.com/eduregis/smd-projeto-integrado-2018.1'
+                }
+            ]  
         },
          {   
             title: 'Breakout Remake',
@@ -210,7 +251,10 @@ export default {
             functions: ['Desenvolvedor','Ilustrador'],
             img: require('@/assets/projects-images/breakout_remake/breakout_remake_image.png'),
             iconsTools: [
-                require('@/assets/interests-icons/java.png')
+                {
+                    name: 'Java',
+                    url: require('@/assets/interests-icons/java.png')
+                }                
             ],
             sections: [
                 {
@@ -231,7 +275,12 @@ export default {
                     ]
                 }
             ],         
-            link: 'https://drive.google.com/file/d/1pgn1oRAIitkk32xheU2G57y_E9rOHMop/view'
+            links: [
+                {
+                    name: 'Link do projeto',
+                    url: 'https://drive.google.com/file/d/1pgn1oRAIitkk32xheU2G57y_E9rOHMop/view'
+                }
+            ]
         },  
     ]
 };

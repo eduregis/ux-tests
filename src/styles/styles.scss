@@ -20,15 +20,18 @@
     height: 100%;
   }
   
+.header {
+  position: sticky;
+  top: 0;
+}
+
   body {
     padding: 1rem;  
     background: $navy;
     padding: 0; 
   }
 
-  nav {
-    position: sticky;
-    top: 0;
+  nav {    
     display: flex;
     @include themed() {
       background-color: t($color-bg);
@@ -79,7 +82,7 @@
     min-height: 100vh;   
   }
   
-  a {
+  .header-btn {
     @include themed() {
       color: t($color-text);
     }
@@ -87,9 +90,9 @@
     border-bottom: none;
     font-size: 0.9rem;
     padding-bottom: 7px;
-  }
-  a:hover {
-    border-bottom: solid 3px;
+    &:hover {
+      border-bottom: solid 3px;
+    }
   }
   .container {
     margin: 0 auto;

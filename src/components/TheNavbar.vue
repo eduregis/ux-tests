@@ -14,6 +14,7 @@
           <router-link 
             to="/" 
             :class="{'current-page' : currentPage == 'projects'}" 
+            class="header-btn"
           >
             PROJETOS
           </router-link>
@@ -24,6 +25,7 @@
           <router-link 
             to="/resume" 
             :class="{'current-page' : currentPage == 'resume'}" 
+            class="header-btn"
           >
             CURRÍCULO
           </router-link>
@@ -34,6 +36,7 @@
           <router-link 
             to="/aboutme" 
             :class="{'current-page' : currentPage == 'aboutme'}" 
+            class="header-btn"
           >
             SOBRE
           </router-link>

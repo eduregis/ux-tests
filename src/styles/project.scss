@@ -6,21 +6,43 @@
     }
     .project-element {
         margin: 30px 0;
+        .tool-container {
+            width: 70px;
+            text-align: center;
+            img {
+                width: 100%;
+            }
+        }
         .section-element {
             margin: 15px 0;
         }
         .masonry { /* Masonry container */
             column-count: 2;
             column-gap: 1em;
-            .masonry-item { /* Masonry bricks or child elements */
-                display: inline-block;
-                margin: 0 0 .7em;
+        }
+        .masonry-unique {
+            column-count: 1;
+        }
+        .masonry-item { /* Masonry bricks or child elements */
+            display: inline-block;
+            margin: 0 0 .7em;
+            width: 100%;
+            img {
                 width: 100%;
-                img {
-                    width: 100%;
-                }
+                cursor: pointer;
             }
         }
-    }
-    
+    }    
+}
+.lightbox-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
 }

@@ -30,33 +30,33 @@
           :key="position"
           class="project-card-container"
         >
-        <div @click="toProject(project.path)">
-          <div class="project-card">
-            <img
-              class="project-card-img" 
-              :src="project.img"
-            >
-            <div class="title-card">
-              {{ project.title }}
-            </div>
-            <div class="description-card">
-              {{ project.shortDescription }}
-            </div>
-            <div class="sub-tag-container">
-              <span>
-                Tags: 
-                <span 
-                  v-for="(tag, position) in project.tags" 
-                  :key="position" 
-                  class="tag sub-tag"
-                >
-                  {{ tag }} 
-                  <span v-if="position < project.tags.length - 1 ">, </span>
-                </span>                
-              </span>
+          <div @click="toProject(project.path)">
+            <div class="project-card">
+              <img
+                class="project-card-img" 
+                :src="project.img"
+              >
+              <div class="title-card" :class="project.color">
+                {{ project.title }}
+              </div>
+              <div class="description-card">
+                {{ project.shortDescription }}
+              </div>
+              <div class="sub-tag-container">
+                <span>
+                  Tags: 
+                  <span 
+                    v-for="(tag, position) in project.tags" 
+                    :key="position" 
+                    class="tag sub-tag"
+                  >
+                    {{ tag }} 
+                    <span v-if="position < project.tags.length - 1 ">, </span>
+                  </span>                
+                </span>
+              </div>
             </div>
           </div>
-        </div>
         </div>
       </div>
     </div>

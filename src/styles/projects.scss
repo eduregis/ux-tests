@@ -7,8 +7,11 @@
   .projects-container {
     margin: 100px auto 0 auto;
     max-width: 900px;
-    .tag {
-      margin: 5px;
+    .tags-container{
+      margin: 30px 0;
+      .tag {
+        margin: 5px;
+      }
     }
     .project-cards-container {
       display: flex;
@@ -49,12 +52,7 @@
             display: flex;
             justify-content: center;    
             margin: 8px auto;        
-            .sub-tag {
-              @include themed() {
-                color: t($color-btn);
-              } 
             }
-          }
           &:hover {
             box-shadow: 0 3px 10px rgba(0,0,0,.36), 0 1px 2px rgba(0,0,0,.24);          
           }
