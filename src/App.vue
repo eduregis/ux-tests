@@ -5,6 +5,13 @@
       <div class="container">
         <TheNavbar class="header"/>
         <router-view></router-view>
+        <footer>
+          <div class="footer">
+            <span>
+              I made this website with ❤ and Vue. © Copyright 2019.
+            </span>
+          </div>
+        </footer>
       </div>
     </div>
   </div>
@@ -35,5 +42,11 @@ body {
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   height: 100vh;
+}
+
+.footer {
+  margin: 15px 0;
+  display: flex;
+  justify-content: center;
 }
 </style>

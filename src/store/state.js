@@ -16,6 +16,7 @@ export default {
     projectCards: [
         {   
             title: 'Feminicídio no Nordeste',
+            color: 'blue-developer',
             tags: ['Infográfico','Trabalho de Faculdade'],
             shortDescription: 'Um infográfico interativo que mostra dados sobre o feminicídio na região nordeste.',
             description: 'Um infográfico interativo que mostra dados sobre o feminicídio na região nordeste no período de  '
@@ -41,6 +42,7 @@ export default {
         }, 
         {   
             title: 'MIDE - Enigma dos Bilhetes',
+            color: 'blue-developer',
             tags: ['Sistema','Jogo','Estágio'],
             shortDescription: 'Um recurso que ensina o uso de sinônimos e antônimos para crianças.',
             description: 'O Enigma dos Bilhetes é um recurso digital desenvolvido para o projeto de '
@@ -67,6 +69,7 @@ export default {
         },
         {   
             title: 'Luz do Saber - Fundamental',
+            color: 'blue-developer',
             tags: ['Sistema','Jogo','Estágio'],
             shortDescription: 'Um recurso para auxílio na alfabetização de crianças.',
             description: 'Software para alfabetização de crianças. Atividades digitais que contribuem para alfabetização infantil. '
@@ -92,6 +95,7 @@ export default {
         },
         {   
             title: 'Egipcia Ecommerce',
+            color: 'blue-developer',
             tags: ['Sistema','Trabalho de Faculdade'],
             shortDescription: 'Um sistema de gerenciamento de um ecommerce.',
             description: 'Esse sistema gerencia o comércio digital fictício Egipcia. Com o uso de JSPs e Servlets, '
@@ -117,6 +121,7 @@ export default {
         },    
         {   
             title: 'B.E.E.P.',
+            color: 'blue-developer',
             tags: ['Jogo','Trabalho de Faculdade'],
             shortDescription: 'Um jogo para auxílio no apredizado de programação',
             description: 'Um malware invadiu o computador e descofigurou todos os robozinhos que o fazia funcionar, ' 
@@ -143,6 +148,7 @@ export default {
         },
          {   
             title: 'Breakout Remake',
+            color: 'blue-developer',
             tags: ['Jogo','Trabalho de Faculdade'],
             shortDescription: 'Um remake do clássico jogo de atari Breakout.',
             description: 'Um remake do clássico jogo de atari Breakout. Feito com o framework Processing '

@@ -43,12 +43,7 @@
             <img v-if="dark" src="@/assets/sun.png">
             <img v-else src="@/assets/moon.png">
           </div>      
-        </li>
-        <!-- <li>
-          <div @click="$store.commit('toggleDark')" class="button--default">
-            {{ value }}
-          </div>
-        </li> -->
+        </li>        
       </ul>
     </div>
   </nav>
