@@ -14,6 +14,7 @@ $red-designer: #ca6d56;
 $color-bg: 'color-bg';
 $color-text: 'color-text';
 $color-btn: 'color-btn';
+$color-title: 'color-title';
 $color-content: 'color-content';
 
 $themes: (
@@ -21,14 +22,16 @@ $themes: (
     color-bg: $white,
     color-text: $navy,
     color-btn: $grey,
-    color-content: $grey-light
+    color-content: $grey-light,
+    color-title: $teal-dark
 
   ),
   dark: (
     color-bg: $navy,
     color-text: $white,
     color-btn: $teal-dark,
-    color-content: $navy-light
+    color-content: $navy-light,
+    color-title: $yellow
   )
 );
 

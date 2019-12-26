@@ -45,7 +45,8 @@ body {
 }
 
 .footer {
-  margin: 15px 0;
+  margin: 15px 0 0 0;
+  padding: 15px 0;
   display: flex;
   justify-content: center;
 }

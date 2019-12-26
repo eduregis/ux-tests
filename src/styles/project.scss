@@ -1,0 +1,26 @@
+.project-container {
+    margin: 50px auto 0 auto;
+    max-width: 700px;
+    .tag-container{
+        margin: 30px 0;
+    }
+    .project-element {
+        margin: 30px 0;
+        .section-element {
+            margin: 15px 0;
+        }
+        .masonry { /* Masonry container */
+            column-count: 2;
+            column-gap: 1em;
+            .masonry-item { /* Masonry bricks or child elements */
+                display: inline-block;
+                margin: 0 0 .7em;
+                width: 100%;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+    
+}

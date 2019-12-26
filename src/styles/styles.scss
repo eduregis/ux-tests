@@ -111,7 +111,9 @@
     font-size: 2rem;
   }
   h1,h2,h3,h4 {
-    color: var($yellow);
+    @include themed() {
+      color: t($color-title);
+    }    
   }
   
   .button--default {
