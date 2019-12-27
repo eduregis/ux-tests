@@ -1,6 +1,6 @@
 <template>
-    <div>
-        currículo
+    <div class="resume-container">       
+        <img src="@/assets/resume.png">
     </div>
 </template>
 

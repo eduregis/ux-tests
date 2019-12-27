@@ -1,3 +1,4 @@
+$navy-dark: #141d26;	
 $navy: #112F41;
 $navy-light: rgb(23, 50, 66);
 $white: #e7e7e7;
@@ -27,10 +28,10 @@ $themes: (
 
   ),
   dark: (
-    color-bg: $navy,
+    color-bg: $navy-dark,
     color-text: $white,
     color-btn: $teal-dark,
-    color-content: $navy-light,
+    color-content: $navy,
     color-title: $yellow
   )
 );

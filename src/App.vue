@@ -8,7 +8,7 @@
         <footer>
           <div class="footer">
             <span>
-              I made this website with ❤ and Vue. © Copyright 2019.
+              Feito com ❤ e Vue. © Eduardo Regis 2019.
             </span>
           </div>
         </footer>

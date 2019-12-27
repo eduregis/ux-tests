@@ -9,26 +9,21 @@ export default {
         'Back-end',
         'Front-end',
         'Ilustrador',
-        'Game Designer',
         'Trabalho de Faculdade',
-        'Estágio'
+        'Estágio',
+        'Vue',
+        'Java',
+        'Javascript'
     ],
     projectCards: [
         {   
             title: 'Feminicídio no Nordeste',
             path: 'feminicidio-no-nordeste',
             color: 'blue-developer',
-            tags: ['Infográfico','Trabalho de Faculdade'],
+            tags: ['Infográfico','Trabalho de Faculdade','Vue'],
             shortDescription: 'Um infográfico interativo que mostra dados sobre o feminicídio na região nordeste.',            
             functions: ['Desenvolvedor','Front-end'],
-            img: require('@/assets/projects-images/info-feminicidio/info_feminicidio_image.png'),
-            iconsTools: [
-                {
-                    name: 'Vue',
-                    url: require('@/assets/interests-icons/vue.png')
-                }
-                
-            ],
+            img: require('@/assets/projects-images/info-feminicidio/info_feminicidio_image.png'),            
             sections: [
                 {
                     title: 'Descrição',
@@ -64,17 +59,11 @@ export default {
             title: 'MIDE - Enigma dos Bilhetes',
             path: 'mide-enigma-dos-bilhetes',
             color: 'blue-developer',
-            tags: ['Sistema','Jogo','Estágio'],
+            tags: ['Sistema','Jogo','Estágio','Vue'],
             shortDescription: 'Um recurso que ensina o uso de sinônimos e antônimos para crianças.',
             
             functions: ['Desenvolvedor','Front-end'],
             img: require('@/assets/projects-images/enigma-dos-bilhetes/enigma_dos_bilhetes_image.png'),
-            iconsTools: [
-                {
-                    name: 'Vue',
-                    url: require('@/assets/interests-icons/vue.png')
-                }                
-            ],
             sections: [
                 {
                     title: 'Descrição',
@@ -111,16 +100,10 @@ export default {
             title: 'Luz do Saber - Fundamental',
             path: 'luz-do-saber-fundamental',
             color: 'blue-developer',
-            tags: ['Sistema','Jogo','Estágio'],
+            tags: ['Sistema','Jogo','Estágio','Vue'],
             shortDescription: 'Um recurso para auxílio na alfabetização de crianças.',
             functions: ['Desenvolvedor','Front-end'],
             img: require('@/assets/projects-images/luz-do-saber/luz_do_saber_image.png'),
-            iconsTools: [
-                {
-                    name: 'Vue',
-                    url: require('@/assets/interests-icons/vue.png')
-                }                
-            ],
             sections: [
                 {
                     title: 'Descrição',
@@ -156,16 +139,10 @@ export default {
             title: 'Egipcia Ecommerce',
             path: 'egipcia-ecommerce',
             color: 'blue-developer',
-            tags: ['Sistema','Trabalho de Faculdade'],
+            tags: ['Sistema','Trabalho de Faculdade','Java'],
             shortDescription: 'Um sistema de gerenciamento de um ecommerce.',            
             functions: ['Desenvolvedor','Front-end','Back-end'],
             img: require('@/assets/projects-images/egipcia/egipcia_image.png'),
-            iconsTools: [
-                {
-                    name: 'Java',
-                    url: require('@/assets/interests-icons/java.png')
-                }                
-            ],
             sections: [
                 {
                     title: 'Descrição',
@@ -201,16 +178,10 @@ export default {
             title: 'B.E.E.P.',
             path: 'beep',
             color: 'blue-developer',
-            tags: ['Jogo','Trabalho de Faculdade'],
+            tags: ['Jogo','Trabalho de Faculdade','Javascript'],
             shortDescription: 'Um jogo para auxílio no aprendizado de programação.',            
             functions: ['Desenvolvedor'],
             img: require('@/assets/projects-images/beep/beep_image.png'),
-            iconsTools: [
-                {
-                    name: 'Javascript',
-                    url: require('@/assets/interests-icons/javascript.png')
-                }                
-            ],
             sections: [
                 {
                     title: 'Descrição',
@@ -246,16 +217,10 @@ export default {
             title: 'Breakout Remake',
             path: 'breakout-remake',
             color: 'blue-developer',
-            tags: ['Jogo','Trabalho de Faculdade'],
+            tags: ['Jogo','Trabalho de Faculdade','Java'],
             shortDescription: 'Um remake do clássico jogo de atari Breakout.',            
             functions: ['Desenvolvedor','Ilustrador'],
             img: require('@/assets/projects-images/breakout_remake/breakout_remake_image.png'),
-            iconsTools: [
-                {
-                    name: 'Java',
-                    url: require('@/assets/interests-icons/java.png')
-                }                
-            ],
             sections: [
                 {
                     title: 'Descrição',

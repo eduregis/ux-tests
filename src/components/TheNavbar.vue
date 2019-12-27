@@ -42,7 +42,7 @@
           </router-link>
         </li> 
         <li>
-          <div @click="$store.commit('toggleDark')">
+          <div class="toggle-mode-icon" @click="$store.commit('toggleDark')">
             <img v-if="dark" src="@/assets/sun.png">
             <img v-else src="@/assets/moon.png">
           </div>      

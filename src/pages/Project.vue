@@ -37,7 +37,7 @@
             class="project-element text-sm"
         >
             <h2 class="text-base section-element">{{ section.title }} </h2>
-            <span class="section-element">{{ section.description }}</span>
+            <span class="section-element section-description">{{ section.description }}</span>
             <div 
                 class="section-element"
                 :class="[section.images.length == 1 ? 'masonry-unique' : 'masonry' ]"
@@ -50,21 +50,7 @@
                     <img :src="image" @click="activateLightbox(image)">
                 </div>
             </div>
-        </div>    
-        <div class="project-element">
-            <h2 class="text-base section-element"> Linguagens/Ferramentas utilizadas </h2>
-            <div 
-                v-for="(tool, toolPosition) in project.iconsTools"
-                :key="toolPosition"                
-            >
-                <span> 
-                    <div class="tool-container">
-                        <img class="tool-image" :src="tool.url">
-                        {{ tool.name }}
-                    </div>
-                </span>
-            </div>
-        </div>       
+        </div>   
         <div class="project-element">
             <h2 class="text-base section-element"> Links </h2>
             <div 

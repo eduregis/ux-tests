@@ -1,0 +1,22 @@
+.aboutme-container {
+    margin: 50px auto 0 auto;
+    max-width: 700px;
+    .aboutme-header {
+        display: flex;    
+        justify-content: space-between;    
+        .aboutme-photo {
+            display: inline-block;
+        } 
+        .aboutme-header-text {
+            display: inline-block;
+            width: 400px;
+        }    
+    }
+    .aboutme-item {
+        margin: 40px auto;
+        .aboutme-text {
+            margin: 15px auto;
+            text-indent: 3em;
+        }
+    }
+}

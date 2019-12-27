@@ -34,21 +34,24 @@
             background: t($color-content);
           }      
           .project-card-img {
-            width: 420px;
+            width: 414px;
+            margin: 3px;
           }
           .title-card {
-            font-size: 1.2rem;
+            font-size: 1.5rem;
+            font-weight: bold;
             text-align: center;
-            margin: 15px auto;
+            margin: 15px auto 5px auto;
           }
         
           .description-card {
             font-size: 0.9rem;
             text-align: center;
             height: 40px;
-            margin: 15px 30px 15px 30px;
+            margin: 5px 30px 15px 30px;
           }
           .sub-tag-container {
+            font-size: 0.9rem;
             display: flex;
             justify-content: center;    
             margin: 8px auto;        
