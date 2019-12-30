@@ -27,7 +27,7 @@
           no LME (Laboratório de Mídias Educacionais). Atualmente estou participando do Apple Developer Academy, no IFCE (Instituto Federal do Ceará).
         </div>
         <div class="text-sm aboutme-text">
-          No meu tempo livre, gosto jogar (principamente Pokemon), assistir filmes, séries e animes, ler mangás, desenhar e torcer para o Flamengo.
+          No meu tempo livre, gosto de jogar (principamente Pokemon), assistir filmes, séries e animes, ler mangás, desenhar e torcer para o Flamengo.
         </div>
       </div>   
   </div>
