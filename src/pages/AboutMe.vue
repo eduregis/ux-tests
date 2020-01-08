@@ -16,7 +16,7 @@
       <div class="aboutme-item">
         <div class="text-sm aboutme-text">
           Comecei a mexer com programação na faculdade com C++, no curso de Matemática Industrial da UFC (Universidade Federal do Ceará). 
-          Daí comecei a desvendar outras linguagens e ferramentas como Java,  Postgre, Javascript, HTML e CSS.
+          Daí comecei a desvendar outras linguagens e ferramentas como Java, SQL, Javascript, HTML e CSS.
         </div>
         <div class="text-sm aboutme-text">
           Quando mudei para o curso de Sistemas e Mídias Digitais, também da UFC, comecei a explorar o mundo do design.
