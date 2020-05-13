@@ -4,6 +4,12 @@
         <h1 class="project-element">
         {{ project.title }}
         </h1>      
+        <router-link 
+            to="/" 
+            class="return-project-btn"
+          >
+            Voltar para aba de projetos
+          </router-link>
         <div class="project-element">
             <span>
                 Tags: 

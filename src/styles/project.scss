@@ -4,6 +4,11 @@
     .tag-container{
         margin: 30px 0;
     }
+    .return-project-btn {
+        @include themed() {
+            color: t($color-btn);
+          }
+    }
     .project-element {
         margin: 30px 0;
         .tool-container {
