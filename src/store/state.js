@@ -11,11 +11,60 @@ export default {
         'Ilustrador',
         'Trabalho de Faculdade',
         'Estágio',
+        'Academy',
         'Vue',
         'Java',
-        'Javascript'
+        'Javascript',
+        'Swift',
+        'Mobile'
     ],
     projectCards: [
+        {   
+            title: 'Take Your Time!',
+            path: 'take-your-time',
+            color: 'blue-developer',
+            tags: ['Mobile','Swift','Academy','Sistema'],
+            shortDescription: 'Um aplicativo sobre gerenciar tarefas e saúde mental.',            
+            functions: ['Desenvolvedor','Front-end','Ilustrador'],
+            img: require('@/assets/projects-images/take-your-time/take_your_time_image.png'),            
+            sections: [
+                {
+                    title: 'Descrição',
+                    description: '  Um aplicativo feito para evitar fadiga mental e overworking. Um gerenciador de tarefas que foca primeiramente não na produtividade, mas na saúde mental do usuário. '
+                        + 'Esse aplicativo foi desenvolvido durante o Apple Developer Academy - Instituto Federal do Ceará. Foi desenvolvido em Swift para plataformas iOS.',
+                    images: []
+                },
+                {
+                    title: 'Processo',
+                    description: '  O aplicativo utiliza a tática do pomodoro. Ao invés d usar um tempo fixo para a realização de atividades, ele organiza em vários ciclos onde o usuário pode decidir'
+                        + ' quantos serão e sua duração. Entre eles, existe um tempo de descanso para o usuário evitar se sobrecarregar. O app busca ser um companheiro de trabalho para o usuário, '
+                        + ' refletindo em ilustrações seu estado atual. O uso de ilustrações e cores leves traz um ambiente mais acolhedor para quem usa.',
+                    images: []
+                },
+                {
+                    title: 'Screenshots',
+                    description: '',
+                    images: [
+                        require('@/assets/projects-images/take-your-time/take_your_time_01.png'),
+                        require('@/assets/projects-images/take-your-time/take_your_time_02.png'),
+                        require('@/assets/projects-images/take-your-time/take_your_time_03.png'),
+                        require('@/assets/projects-images/take-your-time/take_your_time_04.png'),
+                        require('@/assets/projects-images/take-your-time/take_your_time_05.png'),
+                        require('@/assets/projects-images/take-your-time/take_your_time_06.png'),
+                        require('@/assets/projects-images/take-your-time/take_your_time_07.png'),
+                        require('@/assets/projects-images/take-your-time/take_your_time_08.png'),
+                        require('@/assets/projects-images/take-your-time/take_your_time_09.png'),
+                        require('@/assets/projects-images/take-your-time/take_your_time_10.png'),
+                    ]
+                }
+            ],            
+            links: [
+                {
+                    name: 'Link para exibição',
+                    url: 'https://infografico-cv2-406783.netlify.com/'
+                }
+            ] 
+        }, 
         {   
             title: 'Feminicídio no Nordeste',
             path: 'feminicidio-no-nordeste',
@@ -50,8 +99,8 @@ export default {
             ],            
             links: [
                 {
-                    name: 'Link para exibição',
-                    url: 'https://infografico-cv2-406783.netlify.com/'
+                    name: 'Link para código',
+                    url: 'https://github.com/Rudigus/petorque'
                 }
             ] 
         }, 
